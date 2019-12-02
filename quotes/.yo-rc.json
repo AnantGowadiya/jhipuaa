@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.jhipster.qoutes"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "microservice",
+    "baseName": "quotes",
+    "packageName": "com.jhipster.qoutes",
+    "packageFolder": "com/jhipster/qoutes",
+    "serverPort": "8081",
+    "authenticationType": "uaa",
+    "uaaBaseName": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YzQ5NzRhYWMyNjM1MzEyMWVjOGU5NzY2ZmI1OTkxYmYwOTFkZmEyNWNkOWYzMjNjMmQ5YjQyYzNhMTAxOTRjZjUwNTEyMjVhMDRmY2U1MWIwMDQ0NjdiMmZiNzJjOTEyYWEyNmNlMjk5NjhkNGIxMjljNGM0ZWVkYjhhMzEyMjk=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

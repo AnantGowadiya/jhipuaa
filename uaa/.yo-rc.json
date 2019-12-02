@@ -1,0 +1,53 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.jhipseter.uaa"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "uaa",
+    "baseName": "uaa",
+    "packageName": "com.jhipseter.uaa",
+    "packageFolder": "com/jhipseter/uaa",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTMzMTEyOTE0MDBhZWRlODUxOWFmZGVkZjlmNzRiYzg1MGE4NzMxODRiMDI3MjAzOWI3OWJiYTI3MmY1NDFkZjA5NmIzZDJkNDcwZmNiMDAzYzE2YTc2M2ZjMzYzZjcyY2FiNGJjMTZmZGE0MjYwNTI2Njk2MDY2NTM0ZjZiYzE=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "appsFolders": [
+      "gateway",
+      "quotes",
+      "uaa"
+    ],
+    "directoryPath": "../",
+    "clusteredDbApps": [
+      "gateway",
+      "quotes",
+      "uaa"
+    ],
+    "dockerRepositoryName": "anantgowadiya",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "marvel",
+    "ingressDomain": "34.67.38.135.nip.io",
+    "monitoring": "no",
+    "istio": true
+  }
+}
