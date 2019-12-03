@@ -17,7 +17,7 @@ c) Quotes microservice
 
 4) Open command prompt and change to directory consisting of your uaa project 
 
-5) Run command *jhipster kubernetes*
+5) Run command ``` jhipster kubernetes ```
 
 6) It will ask various questions where u need to select all the thre porjects (uaa, quotes, gateway)
 
@@ -30,25 +30,28 @@ c) Quotes microservice
 10) Clone this project into your vm instance
 
 ### 10) run following commands 
+``` 
 
-i) docker login
+docker login
 
-ii) sudo chmod +x sys.logs
+sudo chmod +x sys.logs
 
-iii) ./mvnw -ntp -Pprod verify jib:build -Djib.to.image=anantgowadiya/gateway  (inside gateway dir)
+./mvnw -ntp -Pprod verify jib:build -Djib.to.image=anantgowadiya/gateway  (inside gateway dir)
 
-iv) ./mvnw -ntp -Pprod verify jib:build -Djib.to.image=anantgowadiya/quotes (inside quotes dir)
+./mvnw -ntp -Pprod verify jib:build -Djib.to.image=anantgowadiya/quotes (inside quotes dir)
 
-v) ./mvnw -ntp -Pprod verify jib:build -Djib.to.image=anantgowadiya/uaa (inside uaa dir)
+./mvnw -ntp -Pprod verify jib:build -Djib.to.image=anantgowadiya/uaa (inside uaa dir)
 
-vi) kubectl-apply.sh
+kubectl-apply.sh
 
-vii) kubectl get svc  gatewway -n marvel
+kubectl get svc  gatewway -n marvel
+
+```
 
 ### 11) to get the logs of a container run this command kubectl logs pod-name container-name -n namespace
 
-In my case to get the logs of gatway I run the following command *kubectl logs gateway-5db79f558d-fpn8t gateway-app -n marvel*
+In my case to get the logs of gatway I run the following command ``` kubectl logs gateway-5db79f558d-fpn8t gateway-app -n marvel ```
 
-To save output to a file run this command *kubectl logs gateway-5db79f558d-fpn8t gateway-app -n marvel > filename.txt*
+To save output to a file run this command ``` kubectl logs gateway-5db79f558d-fpn8t gateway-app -n marvel > filename.txt ```
 
 
