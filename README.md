@@ -32,6 +32,8 @@ c) Quotes microservice
 ### 10) run following commands 
 ``` 
 
+gcloud container clusters get-credentials final-cluster --zone us-central1-a --project payment-platform-204588 (to connect to the cluster)
+
 docker login
 
 sudo chmod +x sys.logs
