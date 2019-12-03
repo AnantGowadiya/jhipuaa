@@ -4,7 +4,7 @@
 
 1)Start dockerhub on your pc
 
-2)run *docker-compose -f src/main/docker/jhipster-registry.yml up*   to start the JHipster Registry. It will be available on port 8761 of your Docker host, so if it runs on your machine it should be at http://127.0.0.1:8761/.
+2)run ``` *docker-compose -f src/main/docker/jhipster-registry.yml up* ``` to start the JHipster Registry. It will be available on port 8761 of your Docker host, so if it runs on your machine it should be at http://127.0.0.1:8761/.
 
 3)Follow this link https://www.baeldung.com/jhipster-uaa-secured-micro-service to create jhipster projects
 
