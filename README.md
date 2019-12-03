@@ -44,3 +44,11 @@ v) ./mvnw -ntp -Pprod verify jib:build -Djib.to.image=anantgowadiya/uaa (inside 
 vi) kubectl-apply.sh
 
 vii) kubectl get svc  gatewway -n marvel
+
+### 11) to get the logs of a container run this command kubectl logs pod-name container-name -n namespace
+
+In my case to get the logs of gatway I run the following command *kubectl logs gateway-5db79f558d-fpn8t gateway-app -n marvel*
+
+To save output to a file run this command *kubectl logs gateway-5db79f558d-fpn8t gateway-app -n marvel > filename.txt*
+
+
